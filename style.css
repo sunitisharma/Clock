@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:rgb(238, 235, 235);
+    height: 400px;
+    width: 60%;
+    box-shadow:2px 4px 4px #ccc;
+}
+.display-4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#timendate{
+    text-align: center;
+}
+#loc{
+    text-align: center;
+}
+
+@media (max-width:368px){
+    .container{
+        width: 80%;
+    }
+}
